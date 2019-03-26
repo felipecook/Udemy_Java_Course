@@ -26,6 +26,8 @@ public class ReadingUserInputChallenge {
     }
     System.out.println(sum);
 
+    scanner.close();
+
 
   }
 }
