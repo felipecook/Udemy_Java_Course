@@ -4,7 +4,7 @@ public class KeywordsAndExpressions {
 
   public static void main(String[] args) {
 
-    System.out.println(calcFeetAndInchesToCentimeters(66));
+    System.out.println(calcFeetAndInchesToCentimeters(-1));
   }
 
   public static double calcFeetAndInchesToCentimeters(double feet, double inches) {
