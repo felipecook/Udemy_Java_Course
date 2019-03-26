@@ -15,13 +15,15 @@ public class ReadingUserInputChallenge {
 
     for (int i = 1; i < 11;) {
       System.out.println("Please enter #" + i);
-      counter = scanner.nextInt();
       hasNextInt = scanner.hasNextInt();
+
       if (hasNextInt) {
+        counter = scanner.nextInt();
         sum += counter;
         i++;
       } else {
         System.out.println("Please enter a valid number.");
+        scanner.nextLine();
       }
     }
     System.out.println(sum);
