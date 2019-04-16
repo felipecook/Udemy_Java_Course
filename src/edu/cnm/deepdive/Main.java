@@ -13,6 +13,8 @@ public class Main {
     );
 
     room.getLamp().turnOn();
+
+    room.lampOn();
   }
 
 

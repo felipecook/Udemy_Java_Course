@@ -14,6 +14,10 @@ public class Room {
     this.lamp = lamp;
   }
 
+  public void lampOn () {
+    lamp.turnOn();
+  }
+
   private String getRoomColor() {
     return roomColor;
   }
