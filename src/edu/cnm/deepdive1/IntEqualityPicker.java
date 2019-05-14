@@ -13,6 +13,6 @@ public class IntEqualityPicker {
       System.out.println("Neither all are equal or different");
     }
   }
-  
+
 
 }
